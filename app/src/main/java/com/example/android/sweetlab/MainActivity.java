@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
     private ArrayList<Datos> GetArrayItems(){
         ArrayList<Datos> list=new ArrayList<>();
         list.add(new Datos(R.drawable.ubbaloo, "Bubbaloo"));

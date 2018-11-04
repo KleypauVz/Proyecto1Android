@@ -21,6 +21,7 @@
             android:label="Chucherias seleccionadas"
             android:parentActivityName="com.example.android.sweetlab.MainActivity">
 
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity">
