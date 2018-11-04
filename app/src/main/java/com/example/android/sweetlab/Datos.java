@@ -7,7 +7,6 @@ public class Datos implements Serializable {
     private int chuche;
     private String nombre;
 
-
     public Datos(int chuche,String nombre){
         this.chuche=chuche;
         this.nombre=nombre;
