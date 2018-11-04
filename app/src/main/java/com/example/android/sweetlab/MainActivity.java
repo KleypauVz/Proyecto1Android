@@ -33,6 +33,16 @@ public class MainActivity extends AppCompatActivity {
         lItem.setAdapter(adaptador);
 
 
+        lItem.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                intent.putExtra("objetoData", arraydatos.get(position));
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 
