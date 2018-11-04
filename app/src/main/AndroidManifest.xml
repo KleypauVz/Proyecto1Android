@@ -9,12 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_sweet"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="SweetLab">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity"
+            android:label="Chucherias seleccionadas"
+            android:parentActivityName="com.example.android.sweetlab.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+
+            </meta-data>
+
         </activity>
     </application>
 
